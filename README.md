@@ -3,8 +3,6 @@ LLVM for Windows, which include the tools and libraries left out in the original
 
 Because of the resources involved with a full LLVM build, this repository saves you the effort and resources by providing **full bundles of the Windows (x86-64) build of core LLVM**. Note that other LLVM project tools and applications (such as Clang, lld, etc) are excluded. These builds are mainly intended for use in building other applications or libraries that link to LLVM.
 
-This repository holds only this very README with the download options for each build; sources of the respective builds are provided as URLs to the LLVM repository.
-
 ## Contents
 Each version has two distinct build types, each varying in size and usefulness. If you don't know which to pick, grab `RelWithDebInfo` if you're using LLVM's API, and use `Release` if you just want the missing binaries (such as `llvm-as.exe`, `llvm-dis.exe` and friends).
 
