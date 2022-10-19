@@ -1,4 +1,4 @@
-# Download LLVM for Windows (with missing binaries)
+# Download LLVM prebuilt for Windows (with missing binaries)
 LLVM for Windows, which include the tools and libraries left out in the original releases.
 
 Because of the resources involved with a full LLVM build, this repository saves you the effort and resources by providing **full bundles of the Windows (x86-64) build of core LLVM**. Note that other LLVM project tools and applications (such as Clang, lld, etc) are excluded. These builds are mainly intended for use in building other applications or libraries that link to LLVM.
